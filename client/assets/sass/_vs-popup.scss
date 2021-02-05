@@ -1,0 +1,33 @@
+.vs-popup{
+    background-color: black !important;
+    border: 1px solid white;
+    color: white !important;
+    max-width: calc(100% - 30px);
+
+    .vs-popup--header{
+        height: auto !important;
+
+        .vs-popup--title {
+            text-align: center;
+
+            h3{
+                margin: 0;
+                font-size: 18px;
+                display: none;
+            }
+        }
+
+        .vs-popup--close {
+            display: none;
+        }
+
+    }
+}
+
+.strain_followers_popup .vs-popup {
+    max-width: 320px;
+    .vs-popup--content {
+        min-height: 370px !important;
+    }
+}
+
